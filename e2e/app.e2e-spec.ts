@@ -1,10 +1,10 @@
-import { NgAdminPage } from './app.po';
+import { DgAdminPage } from './app.po';
 
 describe('ng-admin App', function() {
-  let page: NgAdminPage;
+  let page: DgAdminPage;
 
   beforeEach(() => {
-    page = new NgAdminPage();
+    page = new DgAdminPage();
   });
 
   it('should display message saying app works', () => {

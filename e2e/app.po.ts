@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class NgAdminPage {
+export class DgAdminPage {
   navigateTo() {
     return browser.get('/');
   }
